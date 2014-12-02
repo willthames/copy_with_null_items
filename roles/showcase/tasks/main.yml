@@ -1,0 +1,8 @@
+- name: with_first_found is odd when no files exist
+  copy: src="{{item}}" dest="/tmp/whatever"
+  with_first_found:
+   - these
+   - files
+   - do
+   - not
+   - exist
