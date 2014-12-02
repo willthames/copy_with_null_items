@@ -1,4 +1,4 @@
-Showcase for bug behind for ansible/ansible#9689
+# Showcase for bug at [ansible/ansible#9689](https://github.com/ansible/ansible/pull/9689)
 
 `ansible-playbook -vv -i localhost, first_found.yml localhost`
 
